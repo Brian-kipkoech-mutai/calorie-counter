@@ -151,4 +151,25 @@ button ,select{
 
  
 }
- 
+@media only screen and (max-width: 450px) {
+    #bottomButtons {
+        display: block;
+       margin-left: 0;
+       width: 90%;
+        position: absolute;
+        bottom: 2em;
+    
+       display: flex;
+       justify-content: space-between;
+       align-items: baseline;
+       height:auto
+    }
+    h1 {
+      font-size: 3em;
+    }
+    .ui{
+        height: 80vh;
+        position: relative;
+    }
+  }
+  
