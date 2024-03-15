@@ -116,14 +116,16 @@ input{
     border-radius:0.5em;
     border: none;
     background:#D3C1FAFF; 
-    opacity: 0.4;
+    opacity: 0.9;
     outline: none;
     font-weight: 900;
     font-size: 1.3em ;
+    
      
 
     
 }
+
  
 .ui{
     max-width: 500px;
