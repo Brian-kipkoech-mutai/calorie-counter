@@ -32,7 +32,9 @@ const addEntry=()=>{
  </article>
      `
      
-    targetField.insertAdjacentHTML("beforeend",inputTemplate)
+    targetField.insertAdjacentHTML("beforeend",inputTemplate);
+    
+    targetField.scrollIntoView({behavior:'smooth', block:"start"})
        
 }
  
