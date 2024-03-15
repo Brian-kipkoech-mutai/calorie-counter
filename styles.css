@@ -1,0 +1,154 @@
+h1,h2{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    color:  #6D31EDFF;
+}
+h1{
+    font-size: 4em;
+}
+body{
+    font-size: 16px;
+}
+
+fieldset{
+     
+    margin: 1em ;
+    border-radius: 0.3em;
+    padding:0.7em;
+    border: 1px solid black;
+
+
+}
+legend{
+    font-size: 1.3em;
+}
+
+span{
+    margin-left: 2em;
+}
+button{
+    margin-left: 0.5em;
+    font-size: 0.9em;
+ 
+     
+}
+select,button{
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: 1px solid black;
+ 
+
+
+
+}
+option,select,button{
+    cursor: pointer;
+}
+label{
+    font-size: 1.1em;
+    
+
+}
+button[id="reset"]{
+    float: right;
+}
+button[id='addEntryButton']{
+    color: #6D31EDFF;
+    background: #F5F1FEFF;
+    opacity: 1;
+    float: right;
+    margin-right:1em ;
+}
+button[id='addEntryButton']:hover{
+    color: #6D31EDFF;
+    background: #D3C1FAFF;
+}
+
+button[id='submitButton' ],button[id='resertButton']{
+    color: #FFFFFFFF; /* white */
+    background: #171A1FFF;
+    opacity: 1;
+}
+button[id='submitButton' ]:hover,button[id='resertButton']:hover{
+color: #FFFFFFFF; /* white */
+  background: #323743FF;
+}
+input[id="caloriesBudgetInput"]{
+    display: block;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    border-radius: 0.2.5em;
+    border: none;
+    text-align: center;
+    font-size: 1.0em;
+    width: 60%;
+    margin-top: 1em;
+    font-weight: 900;
+    font-size: 1.3em;
+    opacity: 1;
+    font-weight: unset;
+
+    border: 1px double black ;
+    
+
+    
+}
+button[id='resertButton']{
+    /* margin-top: 2em; */
+     
+    margin-top: 2em;
+    
+    
+}
+.hide{
+    display: none;
+}
+.output{
+ text-align: center;
+ font-size: 1.3em;
+}
+input{
+     display: block;
+    width: 90%;
+    padding: 0.5em;
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    border-radius:0.5em;
+    border: none;
+    background:#D3C1FAFF; 
+    opacity: 0.4;
+    outline: none;
+    font-weight: 900;
+    font-size: 1.3em ;
+     
+
+    
+}
+ 
+.ui{
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 3px black;
+    border-radius: 0.5em;
+     display: flow-root;
+     padding: 1em;
+     font-family: 'Manrope', sans-serif;
+     background-color: rgb(245, 242, 242);
+     
+}
+body{
+    background:linear-gradient() ;
+    font-family: 'Roboto', sans-serif;
+     
+background: linear-gradient(360deg, #280144, #000000);
+   
+    
+}
+button ,select{
+    font-family: 'Manrope', sans-serif;
+    margin-top: 1em;
+
+ 
+}
+ 
