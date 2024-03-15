@@ -165,14 +165,19 @@ button ,select{
    flex-direction: column;
    
    margin-left: unset;
+   font-size: 1.1em;
+   
     
 }
 #bottomButtons button{
- padding: 1em;
+ padding: 0.8em;
 }
 h1{
 font-size: 2.5em;
 }
 
+input[id="caloriesBudgetInput"]{
+    font-size: 1.1em;
+}
 }
  
