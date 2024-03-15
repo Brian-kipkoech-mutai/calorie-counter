@@ -151,25 +151,24 @@ button ,select{
 
  
 }
-@media only screen and (max-width: 450px) {
-    #bottomButtons {
-        display: block;
-       margin-left: 0;
-       width: 90%;
-        position: absolute;
-        bottom: 2em;
+@media only screen and (max-width :400px) {
+
+#bottomButtons{
+   
+   width: 95%;
+    margin-top: 1em;
+   display: flex; 
+   flex-direction: column;
+   
+   margin-left: unset;
     
-       display: flex;
-       justify-content: space-between;
-       align-items: baseline;
-       height:auto
-    }
-    h1 {
-      font-size: 3em;
-    }
-    .ui{
-        height: 80vh;
-        position: relative;
-    }
-  }
-  
+}
+#bottomButtons button{
+ padding: 1em;
+}
+h1{
+font-size: 2.5em;
+}
+
+}
+ 
