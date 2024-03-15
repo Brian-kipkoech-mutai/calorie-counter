@@ -101,11 +101,15 @@ const addEntry=()=>{
   burnedcaloriesText.innerHTML=`Burned Calories ${burnedCalories}`;
   DeficitOrSurplusText.innerHTML=`${DeficitOrSurplus} of ${Math.abs(calories)}`;
   output.classList.remove('hide')
+  output.scrollIntoView({behavior:'smooth'})
  }
 submitButton.onclick=(e)=>{
-e.preventDefault();
-calculateCalories();
-}
+    if(!caloriesBudgetInput.value==''){
+        e.preventDefault();
+        calculateCalories();
+        }
+    }
+ 
  
 const reset=()=>{
     for( const node of caloriesInput){
